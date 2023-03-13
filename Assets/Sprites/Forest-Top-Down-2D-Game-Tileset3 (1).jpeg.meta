@@ -1,0 +1,1541 @@
+fileFormatVersion: 2
+guid: f6206dde4e3d514419d8b85191c63266
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 761
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c8ff237765123469693299d9b627d4
+      internalID: -623853495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 761
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ed22123e3328140b9b1d1f82d80198
+      internalID: -279754917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_2
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 761
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a52c579e6abfa945a1cf7c79eb00b7a
+      internalID: 496010470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 761
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0492fbc8277ec44baeec8be99f08e9c
+      internalID: -2047954854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_4
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 761
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55a243a0bfbf6949ba8c14e91fa5177
+      internalID: -480096254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_5
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 761
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf567e7be537f540b6d4b113b6e64b4
+      internalID: -986911493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_7
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 761
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc76c33fa9fd80b45a1dbcd6a640c9a6
+      internalID: 528478021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_8
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 759
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a3f36ba64e3394893a6761aeab993d
+      internalID: 960475830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_9
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 759
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5dea2c7c650904abd83484ec68f9c5
+      internalID: -104066623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_13
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 651
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31a536ae95cee1478340e352006a734
+      internalID: 1061749748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_14
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 651
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cda86670c8bcd641aea80a5d15e3f30
+      internalID: -1905126815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_15
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 651
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dcd3c6a78573041ba2326bdbee4ef1
+      internalID: 1327607206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_16
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 651
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b538e2b48eb545c418eb8d4bb9d6f334
+      internalID: 263499673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_17
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 651
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7498bdde1e6b5a439d32dae51488dd6
+      internalID: -1478892170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_18
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 651
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253ad88276b78014aa28164ed00cad46
+      internalID: 1543329898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_20
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 651
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947a8ef420d149546acddaac1c66a765
+      internalID: 2040988488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_21
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 651
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2bd1dea22005b4b9ac4dcfc6f9cd42
+      internalID: 626709604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_22
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 651
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d793e3868af86c54b994b86e65e321cf
+      internalID: 2007602232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_26
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 541
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610bcfef9943d6146930744ca14a2041
+      internalID: 161639923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_27
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 540
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f95a9829e387b144871e8d2472eec0c
+      internalID: 532931217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_28
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 541
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f284a02e6688442b2eeb54e259bdd9
+      internalID: -1096609704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_29
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 540
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa298872c2259d346ac59beefa6aa56a
+      internalID: -1285354290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_30
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 541
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69918f602c91be40bbbe39dcf6e6e5a
+      internalID: -1199833058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_31
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 540
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5154cb79973fdb54e88f0025940b419d
+      internalID: -179670585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_32
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 540
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a2fcbcf37172a4286bdf1cb8b6b941
+      internalID: 919648908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_33
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 540
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ea458e716a05e41b988a6691e22e2b
+      internalID: -1015537014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_35
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 540
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c8d517f73b4ca4a87a4252c753cbf0
+      internalID: -2032092901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_37
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 644
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083b390b80a999548b4bebe9aaf3a97f
+      internalID: 1672887994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_39
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 430
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51899f68cdc0914598c63d55e240852
+      internalID: -638285848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_40
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 430
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de299dd6849b7cc44acae94340c6412a
+      internalID: -945092527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_41
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 429
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b437f32d2e761a544a4c20891f3a72fb
+      internalID: 1581951096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_42
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 430
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8270ca6dd97194eafc440af103bf1a
+      internalID: 1565808472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_43
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 430
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d586664e11aea43835040ee55f7cb6
+      internalID: -1928769172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_44
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 430
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2a0972a799285428fb37be58e5f290
+      internalID: -786742867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_45
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 430
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eddb1f8b26c48e49b80e64c58dbfba1
+      internalID: 884918563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_46
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 431
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbce5069eeb1caa45ae18227cc9c3826
+      internalID: -1017906918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_47
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 430
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bd41433026b4c47b18485f9dfb0a0c
+      internalID: -1311803386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_50
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 465
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b1f810fda0b3349a91fd0510dc484b
+      internalID: 1902523597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_52
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 320
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d6f8169c632c142bb40634ef705394
+      internalID: 943622363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_53
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 320
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c16da0c3f258b4f974b5bec4a1070c
+      internalID: 2105559472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_55
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 320
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70931a6b37aae1c4ea8bdc24a3e9284b
+      internalID: 168316372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_56
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 320
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b210632696ad64f97a7aa66a2398b2
+      internalID: 1677274434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_57
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 321
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485ccca2709242b499dabe712ac0da18
+      internalID: -1414478572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_58
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 320
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ad3c7eba8a0e74a92e9d9b8dec0b6c
+      internalID: 1792108670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_59
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 320
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a8ee90d9c8e5e47b61822c9fb25d90
+      internalID: 1595474708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_60
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 320
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25f577a3db8827498071e38f499fa9c
+      internalID: 128999015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_61
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 320
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade05209a9a307446bd8674c37a1fc20
+      internalID: 717993141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_64
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 296
+        width: 157
+        height: 159
+      alignment: 9
+      pivot: {x: -0.2503418, y: 0.10951629}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdca97761708b6478a5cc2d266a1297
+      internalID: -292817366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_66
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 209
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6271a0e555c54984fa25e30b1a59a9c3
+      internalID: 139679153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_67
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 210
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5831f1527eaee44196694e801c4c70f
+      internalID: 207851681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_68
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 210
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90e6a9e0ea53f045ad0316de4d8b44b
+      internalID: 1394111278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_69
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 209
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b880ecc3115f1fb4e875756055c0ed71
+      internalID: -1299005763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_71
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 210
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bdbe1223d9ab349a462686c5b6c766
+      internalID: -329338621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_72
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 210
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e9a616ad8066f4ab6478a74412b23a
+      internalID: 1464957148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_73
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 210
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6af2663ba4318418bbec81e5ed6651
+      internalID: -814452893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_77
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 190
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596d8fdcbf6681c439687af3c343e9e4
+      internalID: 582700545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_78
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 210
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ed11319c86e8b43a817001124bc187
+      internalID: 1036113003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_94
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4afa8c41c83dd42a2ba7bb85522001
+      internalID: 2568662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_95
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 99
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ab15b2f2d5dd446932e90c9c9572b3
+      internalID: -2080596276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_96
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 98
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba9119be53c45b4a80b65f6fd789c47
+      internalID: 1735740726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_6
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 187
+        width: 85
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23624719bb6fe04cb9bd5a84c8b275b
+      internalID: -2018923817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Top-Down-2D-Game-Tileset3 (1)_10
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 186
+        width: 71
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8553e90150f003b45856c388e48587b0
+      internalID: -1446168350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Forest-Top-Down-2D-Game-Tileset3 (1)_32: 919648908
+      Forest-Top-Down-2D-Game-Tileset3 (1)_49: -678307977
+      Forest-Top-Down-2D-Game-Tileset3 (1)_9: -104066623
+      Forest-Top-Down-2D-Game-Tileset3 (1)_12: -1543684841
+      Forest-Top-Down-2D-Game-Tileset3 (1)_26: 161639923
+      Forest-Top-Down-2D-Game-Tileset3 (1)_55: 168316372
+      Forest-Top-Down-2D-Game-Tileset3 (1)_100: 1262332911
+      Forest-Top-Down-2D-Game-Tileset3 (1)_74: -1495404371
+      Forest-Top-Down-2D-Game-Tileset3 (1)_66: 139679153
+      Forest-Top-Down-2D-Game-Tileset3 (1)_69: -1299005763
+      Forest-Top-Down-2D-Game-Tileset3 (1)_43: -1928769172
+      Forest-Top-Down-2D-Game-Tileset3 (1)_16: 263499673
+      Forest-Top-Down-2D-Game-Tileset3 (1)_95: -2080596276
+      Forest-Top-Down-2D-Game-Tileset3 (1)_23: -574820829
+      Forest-Top-Down-2D-Game-Tileset3 (1)_47: -1311803386
+      Forest-Top-Down-2D-Game-Tileset3 (1)_2: 496010470
+      Forest-Top-Down-2D-Game-Tileset3 (1)_61: 717993141
+      Forest-Top-Down-2D-Game-Tileset3 (1)_33: -1015537014
+      Forest-Top-Down-2D-Game-Tileset3 (1)_36: 1490376838
+      Forest-Top-Down-2D-Game-Tileset3 (1)_90: 1602290659
+      Forest-Top-Down-2D-Game-Tileset3 (1)_7: 528478021
+      Forest-Top-Down-2D-Game-Tileset3 (1)_18: 1543329898
+      Forest-Top-Down-2D-Game-Tileset3 (1)_93: -1724750979
+      Forest-Top-Down-2D-Game-Tileset3 (1)_78: 1036113003
+      Forest-Top-Down-2D-Game-Tileset3 (1)_42: 1565808472
+      Forest-Top-Down-2D-Game-Tileset3 (1)_6: -2018923817
+      Forest-Top-Down-2D-Game-Tileset3 (1)_35: -2032092901
+      Forest-Top-Down-2D-Game-Tileset3 (1)_34: -536086357
+      Forest-Top-Down-2D-Game-Tileset3 (1)_25: -1686427006
+      Forest-Top-Down-2D-Game-Tileset3 (1)_44: -786742867
+      Forest-Top-Down-2D-Game-Tileset3 (1)_62: -1723635338
+      Forest-Top-Down-2D-Game-Tileset3 (1)_46: -1017906918
+      Forest-Top-Down-2D-Game-Tileset3 (1)_50: 1902523597
+      Forest-Top-Down-2D-Game-Tileset3 (1)_72: 1464957148
+      Forest-Top-Down-2D-Game-Tileset3 (1)_60: 128999015
+      Forest-Top-Down-2D-Game-Tileset3 (1)_51: 963774627
+      Forest-Top-Down-2D-Game-Tileset3 (1)_89: -1443247044
+      Forest-Top-Down-2D-Game-Tileset3 (1)_91: -2107231484
+      Forest-Top-Down-2D-Game-Tileset3 (1)_29: -1285354290
+      Forest-Top-Down-2D-Game-Tileset3 (1)_63: 615727431
+      Forest-Top-Down-2D-Game-Tileset3 (1)_70: -1194252118
+      Forest-Top-Down-2D-Game-Tileset3 (1)_17: -1478892170
+      Forest-Top-Down-2D-Game-Tileset3 (1)_57: -1414478572
+      Forest-Top-Down-2D-Game-Tileset3 (1)_82: 1403763687
+      Forest-Top-Down-2D-Game-Tileset3 (1)_28: -1096609704
+      Forest-Top-Down-2D-Game-Tileset3 (1)_1: -279754917
+      Forest-Top-Down-2D-Game-Tileset3 (1)_15: 1327607206
+      Forest-Top-Down-2D-Game-Tileset3 (1)_40: -945092527
+      Forest-Top-Down-2D-Game-Tileset3 (1)_98: 1019791380
+      Forest-Top-Down-2D-Game-Tileset3 (1)_8: 960475830
+      Forest-Top-Down-2D-Game-Tileset3 (1)_53: 2105559472
+      Forest-Top-Down-2D-Game-Tileset3 (1)_27: 532931217
+      Forest-Top-Down-2D-Game-Tileset3 (1)_45: 884918563
+      Forest-Top-Down-2D-Game-Tileset3 (1)_22: 2007602232
+      Forest-Top-Down-2D-Game-Tileset3 (1)_87: 180919341
+      Forest-Top-Down-2D-Game-Tileset3 (1)_0: -623853495
+      Forest-Top-Down-2D-Game-Tileset3 (1)_84: 800961868
+      Forest-Top-Down-2D-Game-Tileset3 (1)_81: 2109755596
+      Forest-Top-Down-2D-Game-Tileset3 (1)_58: 1792108670
+      Forest-Top-Down-2D-Game-Tileset3 (1)_73: -814452893
+      Forest-Top-Down-2D-Game-Tileset3 (1)_77: 582700545
+      Forest-Top-Down-2D-Game-Tileset3 (1)_11: 1322694996
+      Forest-Top-Down-2D-Game-Tileset3 (1)_38: 93045156
+      Forest-Top-Down-2D-Game-Tileset3 (1)_24: -1612079176
+      Forest-Top-Down-2D-Game-Tileset3 (1)_65: -836154574
+      Forest-Top-Down-2D-Game-Tileset3 (1)_48: 1089831425
+      Forest-Top-Down-2D-Game-Tileset3 (1)_80: -1157987980
+      Forest-Top-Down-2D-Game-Tileset3 (1)_64: -292817366
+      Forest-Top-Down-2D-Game-Tileset3 (1)_85: -1597418520
+      Forest-Top-Down-2D-Game-Tileset3 (1)_96: 1735740726
+      Forest-Top-Down-2D-Game-Tileset3 (1)_101: 1347316578
+      Forest-Top-Down-2D-Game-Tileset3 (1)_103: 808670837
+      Forest-Top-Down-2D-Game-Tileset3 (1)_92: -1547650074
+      Forest-Top-Down-2D-Game-Tileset3 (1)_41: 1581951096
+      Forest-Top-Down-2D-Game-Tileset3 (1)_13: 1061749748
+      Forest-Top-Down-2D-Game-Tileset3 (1)_71: -329338621
+      Forest-Top-Down-2D-Game-Tileset3 (1)_3: -2047954854
+      Forest-Top-Down-2D-Game-Tileset3 (1)_10: -1446168350
+      Forest-Top-Down-2D-Game-Tileset3 (1)_31: -179670585
+      Forest-Top-Down-2D-Game-Tileset3 (1)_4: -480096254
+      Forest-Top-Down-2D-Game-Tileset3 (1)_83: 1753841886
+      Forest-Top-Down-2D-Game-Tileset3 (1)_99: -1025807539
+      Forest-Top-Down-2D-Game-Tileset3 (1)_79: 1825937370
+      Forest-Top-Down-2D-Game-Tileset3 (1)_21: 626709604
+      Forest-Top-Down-2D-Game-Tileset3 (1)_59: 1595474708
+      Forest-Top-Down-2D-Game-Tileset3 (1)_37: 1672887994
+      Forest-Top-Down-2D-Game-Tileset3 (1)_68: 1394111278
+      Forest-Top-Down-2D-Game-Tileset3 (1)_76: -1486568937
+      Forest-Top-Down-2D-Game-Tileset3 (1)_52: 943622363
+      Forest-Top-Down-2D-Game-Tileset3 (1)_5: -986911493
+      Forest-Top-Down-2D-Game-Tileset3 (1)_19: -724471223
+      Forest-Top-Down-2D-Game-Tileset3 (1)_67: 207851681
+      Forest-Top-Down-2D-Game-Tileset3 (1)_54: 523724521
+      Forest-Top-Down-2D-Game-Tileset3 (1)_97: 2016805935
+      Forest-Top-Down-2D-Game-Tileset3 (1)_75: -2134701170
+      Forest-Top-Down-2D-Game-Tileset3 (1)_14: -1905126815
+      Forest-Top-Down-2D-Game-Tileset3 (1)_20: 2040988488
+      Forest-Top-Down-2D-Game-Tileset3 (1)_94: 2568662
+      Forest-Top-Down-2D-Game-Tileset3 (1)_30: -1199833058
+      Forest-Top-Down-2D-Game-Tileset3 (1)_56: 1677274434
+      Forest-Top-Down-2D-Game-Tileset3 (1)_88: -2017515194
+      Forest-Top-Down-2D-Game-Tileset3 (1)_39: -638285848
+      Forest-Top-Down-2D-Game-Tileset3 (1)_102: -138302157
+      Forest-Top-Down-2D-Game-Tileset3 (1)_86: 520796293
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
