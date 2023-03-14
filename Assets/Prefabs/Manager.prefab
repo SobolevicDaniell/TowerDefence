@@ -44,10 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3d2495cdff47424ca2bb3df3ed0a7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 4602173504016046858, guid: bdedde3711354de489fcf9a53e960cae, type: 3}
+  spawnPoint: {fileID: 8385986854724737492, guid: bdedde3711354de489fcf9a53e960cae, type: 3}
   enemies:
   - {fileID: 4526267745832427495, guid: e354dc96e7134894c8989df5f83c858a, type: 3}
   - {fileID: 3692427529501128843, guid: b15a116d83a8e704a80ce31d31ed6af2, type: 3}
-  maxEnemiesOnScreen: 5
-  totalEnemis: 10
-  enemiesPerSpawn: 2
+  maxEnemiesOnScreen: 8
+  totalEnemis: 8
+  enemiesPerSpawn: 1
