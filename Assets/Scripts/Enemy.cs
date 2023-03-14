@@ -5,14 +5,13 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    [SerializeField] Transform exit;
+    [SerializeField] Transform[] points;
+    [SerializeField] float navigation;
 
-    public int target = 0;
-    public Transform exit;
-    public Transform[] points;
-    public float navigation;
-
+    private int _target = 0;
     private Transform _enemy;
-    private float navigationTime = 0;
+    private float _navigationTime = 0;
     
     void Start()
     {
@@ -23,19 +22,19 @@ public class Enemy : MonoBehaviour
     {
         if (points != null)
         {
-            navigationTime += Time.deltaTime;
-            if (navigationTime > navigation)
+            _navigationTime += Time.deltaTime;
+            if (_navigationTime > navigation)
             {
-                if (target < points.Length)
+                if (_target < points.Length)
                 {
-                    _enemy.position = Vector2.MoveTowards(_enemy.position, points[target].position, navigationTime);
+                    _enemy.position = Vector2.MoveTowards(_enemy.position, points[_target].position, _navigationTime);
                 }
                 else
                 {
-                    _enemy.position = Vector2.MoveTowards(_enemy.position, exit.position, navigationTime);
+                    _enemy.position = Vector2.MoveTowards(_enemy.position, exit.position, _navigationTime);
                 }
 
-                navigationTime = 0;
+                _navigationTime = 0;
             }
         }
     }
@@ -44,7 +43,7 @@ public class Enemy : MonoBehaviour
     {
         if (col.tag == "Point")
         {
-            target++;
+            _target++;
         }else if (col.tag == "Finish")
         {
             Manager.Instance.RemoveEnemy();

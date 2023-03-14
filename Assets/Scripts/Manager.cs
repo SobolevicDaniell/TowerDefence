@@ -6,11 +6,11 @@ using UnityEngine;
 public class Manager : Loader<Manager>
 {
 
-    public GameObject spawnPoint;
-    public GameObject[] enemies;
-    public int maxEnemiesOnScreen;
-    public int totalEnemis;
-    public int enemiesPerSpawn;
+    [SerializeField] GameObject spawnPoint;
+    [SerializeField] GameObject[] enemies;
+    [SerializeField] int maxEnemiesOnScreen;
+    [SerializeField] int totalEnemis;
+    [SerializeField] int enemiesPerSpawn;
 
 
     private int _enemiesOnScreen = 0;
