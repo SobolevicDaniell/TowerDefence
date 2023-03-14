@@ -47,7 +47,7 @@ public class Enemy : MonoBehaviour
             target++;
         }else if (col.tag == "Finish")
         {
-            Manager.instance.RemoveEnemy();
+            Manager.Instance.RemoveEnemy();
             Destroy(gameObject);
         }
     }
