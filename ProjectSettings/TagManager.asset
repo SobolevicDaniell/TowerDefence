@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Point
   - Enemy
+  - TowerSide
+  - Ground
+  - Tower
+  - TowerSideFull
   layers:
   - Default
   - TransparentFX
