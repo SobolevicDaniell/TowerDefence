@@ -19600,17 +19600,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3020853141277722942, guid: 0b7aae1189c288c4e896fe6e931ab434, type: 3}
   m_PrefabInstance: {fileID: 3020853140410955329}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1420443523 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3020853141277723074, guid: 0b7aae1189c288c4e896fe6e931ab434, type: 3}
-  m_PrefabInstance: {fileID: 3020853140410955329}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 696da96fe0375ce4a8357bc9d47e4370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1426296660
 GameObject:
   m_ObjectHideFlags: 0
@@ -30765,37 +30754,9 @@ PrefabInstance:
       value: Second
       objectReference: {fileID: 0}
     - target: {fileID: 3020853141277723073, guid: 0b7aae1189c288c4e896fe6e931ab434, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3020853141277723073, guid: 0b7aae1189c288c4e896fe6e931ab434, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3020853141277723073, guid: 0b7aae1189c288c4e896fe6e931ab434, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 198989137}
-    - target: {fileID: 3020853141277723073, guid: 0b7aae1189c288c4e896fe6e931ab434, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3020853141277723073, guid: 0b7aae1189c288c4e896fe6e931ab434, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SelectedTower
-      objectReference: {fileID: 0}
-    - target: {fileID: 3020853141277723073, guid: 0b7aae1189c288c4e896fe6e931ab434, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: TowerManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3020853141277723073, guid: 0b7aae1189c288c4e896fe6e931ab434, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 1420443523}
-    - target: {fileID: 3020853141277723073, guid: 0b7aae1189c288c4e896fe6e931ab434, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: TowerBtn, Assembly-CSharp
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b7aae1189c288c4e896fe6e931ab434, type: 3}
 --- !u!1001 &3334251836926310710

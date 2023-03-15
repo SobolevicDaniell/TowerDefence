@@ -9,7 +9,7 @@ TagManager:
   - TowerSide
   - Ground
   - Tower
-  - TowerSideFull
+  - Projectile
   layers:
   - Default
   - TransparentFX

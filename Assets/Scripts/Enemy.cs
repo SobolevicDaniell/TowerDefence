@@ -16,6 +16,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         _enemy = GetComponent<Transform>();
+        Manager.Instance.RegicterEnemy(this);
     }
 
     void Update()
@@ -46,8 +47,7 @@ public class Enemy : MonoBehaviour
             _target++;
         }else if (col.tag == "Finish")
         {
-            Manager.Instance.RemoveEnemy();
-            Destroy(gameObject);
+            Manager.Instance.UnRegicterEnemy(this);
         }
     }
 }

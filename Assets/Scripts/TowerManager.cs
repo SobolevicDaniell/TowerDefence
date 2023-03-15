@@ -32,7 +32,7 @@ public class TowerManager : Loader<TowerManager>
     {
         if (!EventSystem.current.IsPointerOverGameObject() && _towerBtnPressed != null)
         {
-            GameObject newTower = Instantiate(_towerBtnPressed.Tower);
+            GameObject newTower = Instantiate(_towerBtnPressed.Tower) as GameObject;
             newTower.transform.position = hit.transform.position;
         }
     }
