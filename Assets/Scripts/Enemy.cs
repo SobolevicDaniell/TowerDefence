@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] Transform[] points;
     [SerializeField] float navigation;
     [SerializeField] private int health;
+    [SerializeField] private int cost;
 
     private int _target = 0;
     private Transform _enemy;

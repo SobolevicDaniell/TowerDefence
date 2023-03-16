@@ -187,3 +187,4 @@ MonoBehaviour:
   - {fileID: 7252952486331521787, guid: 71ccb5d537e21e344ba79526ed40f1b6, type: 3}
   navigation: 0.01
   health: 10
+  cost: 15
