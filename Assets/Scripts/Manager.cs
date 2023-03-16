@@ -33,7 +33,7 @@ public class Manager : Loader<Manager>
             {
                 if (EnemyList.Count < maxEnemiesOnScreen)
                 {
-                    GameObject newEnemy = Instantiate(enemies[1]);
+                    GameObject newEnemy = Instantiate(enemies[0]);
                     newEnemy.transform.position = spawnPoint.transform.position;
                 }
             }

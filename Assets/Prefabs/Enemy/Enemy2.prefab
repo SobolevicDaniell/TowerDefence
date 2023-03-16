@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 3739491a635c3de479e7e2243f14448a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -101,7 +101,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 34e778c801e995d46b4e4870b49420be, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -167,7 +167,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c96c12efd6134b42ae2128bd08082d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: 0
   exit: {fileID: 8265262261952522983, guid: d8ecd650b352b63438ea6aa81947dd6d, type: 3}
   points:
   - {fileID: 8960085204114283941, guid: 004d56fa53cc61c44a6e57917e8b8f3d, type: 3}
@@ -187,3 +186,4 @@ MonoBehaviour:
   - {fileID: 8414232081322588424, guid: 94708eb8f7cbe804f9a036e4c963fa1c, type: 3}
   - {fileID: 7252952486331521787, guid: 71ccb5d537e21e344ba79526ed40f1b6, type: 3}
   navigation: 0.01
+  health: 15
