@@ -188,3 +188,4 @@ MonoBehaviour:
   navigation: 0.01
   health: 10
   cost: 15
+  speed: 1.3

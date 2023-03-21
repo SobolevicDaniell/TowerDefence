@@ -98,5 +98,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.5
-  attackRadius: 2
+  attackRadius: 5
   _projectile: {fileID: 1160084087194692723, guid: fc364b6187225e241876315ea31f9983, type: 3}

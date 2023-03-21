@@ -186,5 +186,6 @@ MonoBehaviour:
   - {fileID: 8414232081322588424, guid: 94708eb8f7cbe804f9a036e4c963fa1c, type: 3}
   - {fileID: 7252952486331521787, guid: 71ccb5d537e21e344ba79526ed40f1b6, type: 3}
   navigation: 0.01
-  health: 15
+  health: 25
   cost: 30
+  speed: 1

@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] float navigation;
     [SerializeField] private int health;
     [SerializeField] private int cost;
+    [SerializeField] private float speed = 1;
 
     private int _target = 0;
     private Transform _enemy;
@@ -39,7 +40,7 @@ public class Enemy : MonoBehaviour
     {
         if (points != null && _isDead == false)
         {
-            _navigationTime += Time.deltaTime;
+            _navigationTime += Time.deltaTime * speed;
             if (_navigationTime > navigation)
             {
                 if (_target < points.Length)
@@ -63,7 +64,10 @@ public class Enemy : MonoBehaviour
         }
         else if (col.tag == "Finish")
         {
+            Manager.Instance.RoundEscaped += 1;
+            Manager.Instance.TotalEscaped += 1;
             Manager.Instance.UnRegicterEnemy(this);
+            Manager.Instance.IsWaveOver();
         }
         else if (col.tag == "Projectile")
         {
@@ -92,5 +96,8 @@ public class Enemy : MonoBehaviour
     {
         _isDead = true;
         _enemyCollider.enabled = false;
+        Manager.Instance.TotalKilled += 1;
+        Manager.Instance.IsWaveOver();
+        Manager.Instance.AddMoney(cost);
     }
 }

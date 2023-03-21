@@ -5,11 +5,11 @@ using TMPro;
 
 public class TowerBtn : MonoBehaviour
 {
-    [SerializeField] private GameObject tower;
+    [SerializeField] private TowerControl tower;
     [SerializeField] private int towerPrice;
     
 
-    public GameObject Tower
+    public TowerControl Tower
     {
         get
         {

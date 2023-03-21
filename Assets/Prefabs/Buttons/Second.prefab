@@ -282,8 +282,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 696da96fe0375ce4a8357bc9d47e4370, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tower: {fileID: 8640151177732019932, guid: c23985056aaeaa549a6a9b01782ecd86, type: 3}
-  towerPrice: 100
+  tower: {fileID: 7057640766742112499, guid: c23985056aaeaa549a6a9b01782ecd86, type: 3}
+  towerPrice: 120
 --- !u!1 &4077532922426116803
 GameObject:
   m_ObjectHideFlags: 0

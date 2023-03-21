@@ -3,7 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
+using Random = System.Random;
 
 public enum gameStatus
 {
@@ -15,33 +17,70 @@ public class Manager : Loader<Manager>
 {
 
     [SerializeField] GameObject spawnPoint;
-    [SerializeField] GameObject[] enemies;
-    [SerializeField] int maxEnemiesOnScreen;
-    [SerializeField] int totalEnemis;
+    [SerializeField] Enemy[] enemies;
+    [SerializeField] int totalEnemis = 5;
     [SerializeField] private int totalWaves = 10;
+    [SerializeField] private int enemiesPerSpawn = 1;
+    [SerializeField] private int MaxEscaped;
     
     [SerializeField] private TMP_Text textTotalEscaped;
     [SerializeField] private TMP_Text textMoney;
     [SerializeField] private TMP_Text textWave;
     [SerializeField] private TMP_Text textBtn;
     [SerializeField] private Button playBtn;
+    
 
-    private int _enemiesPerSpawn;
+    
     private int _waveNumber = 0;
     private int _totalMoney = 10;
     private int _totalEscaped = 0;
     private int _roundEscaped = 0;
     private int _totalKilled = 0;
     private int _whichEnemiesToSpawn = 0;
+    private int _enemiesToSpawn = 0;
 
     private gameStatus _currentStatus = gameStatus.play;
     
     
     private const float spawnDelay = 0.9f;
 
+    
+    
+    public int TotalEscaped
+    {
+        get
+        {
+            return _totalEscaped;
+        }
+        set
+        {
+            _totalEscaped = value;
+        }
+    }
 
-    public List<Enemy> EnemyList = new List<Enemy>();
+    public int RoundEscaped
+    {
+        get
+        {
+            return _roundEscaped;
+        }
+        set
+        {
+            _roundEscaped = value;
+        }
+    }
 
+    public int TotalKilled
+    {
+        get
+        {
+            return _totalKilled;
+        }
+        set
+        {
+            _totalKilled = value;
+        }
+    }
     public int TotalMoney
     {
         get
@@ -56,23 +95,31 @@ public class Manager : Loader<Manager>
     }
     
     
+    
+    public List<Enemy> EnemyList = new List<Enemy>();
+    
     void Start()
     {
         playBtn.gameObject.SetActive(false);
         ShowMenu();
+        textTotalEscaped.text = "Escaped " + TotalEscaped + "/" + MaxEscaped;
     }
 
-    
+    private void Update()
+    {
+        IfMaxEscaped();
+    }
 
     IEnumerator Spawn()
     {
-        if (_enemiesPerSpawn > 0 && EnemyList.Count < totalEnemis)
+        if (enemiesPerSpawn > 0 && EnemyList.Count < totalEnemis)
         {
-            for (int i = 0; i < _enemiesPerSpawn; i++)
+            for (int i = 0; i < enemiesPerSpawn; i++)
             {
-                if (EnemyList.Count < maxEnemiesOnScreen)
+                if (EnemyList.Count < totalEnemis)
                 {
-                    GameObject newEnemy = Instantiate(enemies[0]);
+                    Random rnd = new Random();
+                    Enemy newEnemy = Instantiate(enemies[rnd.Next(0, _enemiesToSpawn)]);
                     newEnemy.transform.position = spawnPoint.transform.position;
                 }
             }
@@ -111,6 +158,74 @@ public class Manager : Loader<Manager>
         TotalMoney -= amount;
     }
 
+    public void IsWaveOver()
+    {
+        textTotalEscaped.text = "Escaped " + TotalEscaped + "/" + MaxEscaped;
+
+        if ((RoundEscaped + TotalKilled) == totalEnemis)
+        {
+            if (_waveNumber <= enemies.Length)
+            {
+                _enemiesToSpawn = _waveNumber;
+            }
+            SetCurrentGameState();
+            ShowMenu();
+        }
+    }
+
+    public void SetCurrentGameState()
+    {
+        if (_totalEscaped >= 10)
+        {
+            _currentStatus = gameStatus.gameover;
+        }
+        else if (_waveNumber == 0 && (RoundEscaped + TotalKilled) == 0)
+        {
+            _currentStatus = gameStatus.play;
+        }
+        else if (_waveNumber >= totalWaves)
+        {
+            _currentStatus = gameStatus.win;
+        }
+        else
+        {
+            _currentStatus = gameStatus.next;
+        }
+    }
+
+
+    public void PlayBtnPressed()
+    {
+        switch (_currentStatus)
+        {
+            case gameStatus.next:
+                _waveNumber += 1;
+                totalEnemis += _waveNumber;
+                
+                break;
+            
+            default:
+                totalEnemis = 5;
+                TotalEscaped = 0;
+                TotalMoney = 100;
+                _enemiesToSpawn = 0;
+                TowerManager.Instance.DestroyTowers();
+                TowerManager.Instance.RenameTag();
+                textMoney.text = TotalMoney.ToString();
+                textTotalEscaped.text = "Escaped " + TotalEscaped + "/" + MaxEscaped;
+                
+                break;
+        }
+        DestroyEnemies();
+        TotalKilled = 0;
+        RoundEscaped = 0;
+        textWave.text = "Wave " + (_waveNumber + 1) + "/ " + totalWaves + 1;
+        StartCoroutine(Spawn());
+        playBtn.gameObject.SetActive(false);
+    }
+    
+    
+    
     public void ShowMenu()
     {
         switch (_currentStatus)
@@ -136,6 +251,15 @@ public class Manager : Loader<Manager>
                 break;
         }
         playBtn.gameObject.SetActive(true);
+    }
+
+    public void IfMaxEscaped()
+    {
+        if (TotalEscaped >= MaxEscaped)
+        {
+            _currentStatus = gameStatus.gameover;
+            ShowMenu();
+        }
     }
     
 }
