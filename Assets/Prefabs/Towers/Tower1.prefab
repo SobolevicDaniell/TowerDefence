@@ -97,6 +97,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5df91e9ae3b932c499ff00c35a8b48b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.5
-  attackRadius: 5
+  delay: 1.2
+  attackRadius: 4
   _projectile: {fileID: 1160084087194692723, guid: fc364b6187225e241876315ea31f9983, type: 3}

@@ -201,6 +201,8 @@ public class Manager : Loader<Manager>
             case gameStatus.next:
                 _waveNumber += 1;
                 totalEnemis += _waveNumber;
+                textWave.text = "Wave " + (_waveNumber + 1) + "/ " + (totalWaves + 1);
+                textTotalEscaped.text = "Escaped " + TotalEscaped + "/" + MaxEscaped;
                 
                 break;
             
@@ -219,7 +221,7 @@ public class Manager : Loader<Manager>
         DestroyEnemies();
         TotalKilled = 0;
         RoundEscaped = 0;
-        textWave.text = "Wave " + (_waveNumber + 1) + "/ " + totalWaves + 1;
+        textWave.text = "Wave " + (_waveNumber + 1) + "/ " + (totalWaves + 1);
         StartCoroutine(Spawn());
         playBtn.gameObject.SetActive(false);
     }
@@ -232,6 +234,8 @@ public class Manager : Loader<Manager>
         {
             case gameStatus.gameover:
                 textBtn.text = "Play again!";
+                _waveNumber = 0;
+                textWave.text = "Wave " + (_waveNumber + 1) + "/ " + (totalWaves + 1);
                 
                 break;
             

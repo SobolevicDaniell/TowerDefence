@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.EventSystems;
 using UnityEngine.EventSystems;
 
 public class TowerManager : Loader<TowerManager>
@@ -16,8 +15,9 @@ public class TowerManager : Loader<TowerManager>
     
     void Start()
     {
+        //_spriteRenderer.GetComponent<SpriteRenderer>();
         buildTile = GetComponent<Collider2D>();
-        _spriteRenderer.enabled = false;
+        //_spriteRenderer.enabled = false;
     }
 
     void Update()
@@ -94,7 +94,5 @@ public class TowerManager : Loader<TowerManager>
         {
             _towerBtnPressed = null;
         }
-        
-        Debug.Log("Pressed " + _towerBtnPressed.gameObject);
     }
 }
